@@ -1,4 +1,4 @@
-# [faq.nastoletni.pl](https://faq.nastoletni.pl)
+# [faq.nastoletni.pl](http://faq.nastoletni.pl)
 
 Code is on MIT license, contents on CC-BY-SA 4.0.
 
