@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+        <link rel="stylesheet" href="{{ site.base_url }}/style.css">
+        {% if jekyll.environment == 'production' and site.google_analytics %}
+            {% include google-analytics.html %}
+        {% endif %}
+    </head>
+    <body>
+        <header class="page-navbar">
+            <div class="page-navbar--container">
+                <h1 class="page-navbar--title">
+                    <a href="{{ site.base_url }}/" class="page-navbar--title-link">
+                        <img src="https://nastoletni.pl/wp-content/themes/nastoletnitheme/imgs/logo.svg" alt="Logo nastoletni.pl" class="page-navbar--logo-image">
+                        Najczęściej zadawane pytania
+                    </a>
+                </h1>
+                <nav class="page-navbar--navigation page-navbar-nav">
+                    <h2 class="page-navbar-nav--title">Nawigacja</h2>
+                    <ul class="page-navbar-nav--links">
+                        <li class="page-navbar-nav--links-item">
+                            <a href="https://github.com/nastoletni/faq" class="page-navbar-nav--link">Chcesz coś dodać?</a>
+                        </li>
+                        <li class="page-navbar-nav--links-item">
+                            <a href="https://nastoletni.pl" class="page-navbar-nav--link">Powrót do nastoletni.pl</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            {{ content }}
+        </main>
+        <footer class="footer">
+            <div>
+                <p>
+                    <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license">
+                        <img alt="Licencja Creative Commons BY-SA 4.0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png">
+                    </a>
+                </p>
+                <ul>
+                    <li><a href="https://github.com/nastoletni/faq">Repozytorium</a></li>
+                    <li><a href="https://www.facebook.com/nastoletnipl">Fanpage</a></li>
+                    <li><a href="https://www.facebook.com/groups/NastoletniProgramisci">Grupa</a></li>
+                    <li><a href="https://m.me/albert.wolszon">Kontakt</a></li>
+                    <li><a href="https://github.com/nastoletni/faq/issues/new">Zgłoś błąd</a></li>
+                    <li><a href="https://nastoletni.pl/">Powrót na nastoletni.pl</a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
