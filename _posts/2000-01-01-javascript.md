@@ -4,11 +4,21 @@ category: section
 date: 2000-01-04
 ---
 
-*   [kursjs.pl](http://kursjs.pl/) - polski kurs JavaScript.
-*   [Mozilla Developer Network](https://developer.mozilla.org/pl/docs/Web/JavaScript) - niezaprzeczalnie najlepsza i największa baza wiedzy o JavaScript.
-*   [Beau teaches JavaScript](https://medium.freecodecamp.com/my-giant-javascript-basics-course-is-now-live-on-youtube-and-its-100-free-9020a21bbc27) - dobre wideoporadniki, pokrywające podstawy JavaScript jak i jego bardziej zaawansowane aspekty. Po angielsku.
+- [You Don't Know JS]
+- [Exploring JS]
+- [The Coding Train] - kanał na YouTube na którym prowadzący na oczach widza wykonuje różne rzeczy, przy użyciu [p5.js].
+- [Samuraj Programowania] - polski wideokurs do JavaScript.
+- [Kurs JavaScript] - kolejny polski kurs, tym razem tekstowy.
+- [Mozilla Developer Network] - świetna dokumentacja.
+- [Fun Fun Function]
+- [Beau teaches JavaScript] - kolejny, tym razem **bardzo dobry** wideokurs.
 
-### Literatura
-
-*   [Zbiór znakomitych książek traktujących o JavaScript. Wersja online za darmo.](http://exploringjs.com/)
-*   [JavaScript. Programowanie zaawansowane. Tomasz "Comandeer" Jakut](http://helion.pl/ksiazki/javascript-programowanie-zaawansowane-tomasz-comandeer-jakut,jascpz.htm)
+[You Don't Know JS]: https://github.com/getify/You-Dont-Know-JS
+[Exploring JS]: http://exploringjs.com/
+[The Coding Train]: https://www.youtube.com/user/shiffman/playlists?view=50&shelf_id=14&sort=dd
+[p5.js]: https://p5js.org/
+[Samuraj Programowania]: https://www.youtube.com/playlist?list=PLTs20Q-BTEMPRSzhrlAuu7yus1BuOLVrS
+[Kurs JavaScript]: http://kursjs.pl/
+[Mozilla Developer Network]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[Fun Fun Function]: https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos
+[Beau teaches JavaScript]: https://www.youtube.com/playlist?list=PLWKjhJtqVAbmoiNlqLJg1gxEjEuKHHcn_
