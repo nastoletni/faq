@@ -6,6 +6,7 @@ const fs = require("fs");
 const matter = require("gray-matter");
 const glob = require("glob");
 const { promisify } = require("util");
+const yaml = require("js-yaml");
 
 // promisify some fs functions
 const readFileAsync = promisify(fs.readFile);
@@ -13,13 +14,34 @@ const writeFileAsync = promisify(fs.writeFile);
 const readdirAsync = promisify(fs.readdir);
 const globAsync = promisify(glob);
 
+const matterOptions = {
+    engines: {
+        yaml: {
+            parse(str) {
+                return yaml.safeLoad(str);
+            },
+            stringify(data) {
+                // not nice code, against YAML spec
+                let date = data.date,
+                    title = data.title;
+                delete data.date;
+                delete data.title;
+                let rest = yaml.safeDump(data, {
+                    noCompatMode: true
+                });
+                return `title: ${title}\ndate: ${date}\n${rest}`;
+            }
+        }
+    }
+};
+
 /**
  * Reads a markdown file from the provided path and parses the front matter.
  * @param {String} path 
  */
 async function readAndParseFile(path) {
     let data = await readFileAsync(path, "utf8")
-    return matter(data);
+    return matter(data, matterOptions);
 }
 
 /**
@@ -27,7 +49,7 @@ async function readAndParseFile(path) {
  * @param {Object} parsedFile 
  */
 async function writeFile(parsedFile) {
-    await writeFileAsync(parsedFile.originalFilename, matter.stringify(parsedFile.content, parsedFile.data));
+    await writeFileAsync(parsedFile.originalFilename, matter.stringify(parsedFile.content, parsedFile.data, matterOptions));
 }
 
 /**
@@ -52,7 +74,7 @@ async function reorderFiles() {
     parsedFiles.sort((a, b) => a.data.date - b.data.date); // sort all files by date
 
     let nextDate = new Date(START_DATE.getTime());
-    
+
     parsedFiles.forEach(parsedFile => {
         parsedFile.data.date = formatDate(new Date(nextDate.getTime())); // copy next date and assign it
         nextDate.setMonth(nextDate.getMonth() + DATE_MONTHS_INTERVAL);
