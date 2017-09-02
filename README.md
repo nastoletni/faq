@@ -1,7 +1,21 @@
-# [faq.nastoletni.pl](http://faq.nastoletni.pl)
+# [FAQ nastoletni.pl](http://faq.nastoletni.pl)
 
-Code is on MIT license, contents on CC-BY-SA 4.0.
+Kod jest na licencji MIT, a treści na licencji CC-BY-SA 4.0.
 
-Możesz kontrybuować do strony poprzez utworzenie nowego Pull Requesta do repozytorium. Do każdego PRa dodaj notkę, dlaczego uważasz, że dodane przez Ciebie źródła są warte polecenia.
+## Zarządzanie kolejnością sekcji
 
-W kodzie przestrzegaj semantyki.
+Z racji, że używany jest Jekyll, kolejność sekcji w FAQ jest określana za pomocą dat. Pole `date` we Front Matter każdej sekcji określa kolejność wszystkich sekcji. Jeżeli chcesz, aby nowo dodana sekcja znajdowała się *na przykład* pomiędzy sekcją z datą `2000-01-07` a sekcją z datą `2000-01-08`, to nadaj nowo tworzonej sekcji datę `2000-01-07 12:00:00`, czyli datę dokładnie w połowie tych dwóch.
+
+## Postawienie tego u siebie
+
+Mając zainstalowanego Jekylla:
+
+```
+jekyll serve --force_polling 
+```
+
+Używając Dockera:
+
+```
+docker run -it -v %cd%:/srv/jekyll -p 4000:4000 jekyll/jekyll jekyll serve --force_polling
+```
