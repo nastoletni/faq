@@ -4,7 +4,7 @@ const gulp = require('gulp'),
     csso = require('gulp-csso');
 
 gulp.task('default', () => {
-    return gulp.src(['node_modules/nastoletni-sass/src/style.scss'])
+    return gulp.src('style.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer())
         .pipe(csso())
