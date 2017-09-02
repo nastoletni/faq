@@ -1,7 +1,7 @@
 ---
 title: Darmowe dobro
 category: section
-date: 2000-01-13
+date: '2000-03-01'
 ---
 
 ### Dla programisty

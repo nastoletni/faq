@@ -1,8 +1,8 @@
 ---
-title: Web (HTML, CSS)
+title: 'Web (HTML, CSS)'
 link: web
 category: section
-date: 2000-01-03
+date: '2000-02-01'
 ---
 
 *   [kurshtml.edu.pl](http://www.kurshtml.edu.pl/) - bardzo dobry kurs HTML i CSS.
