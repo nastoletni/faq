@@ -15,7 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Najczęściej zadawane pytania - nastoletni.pl
 email: ""
-description: ""
+description: Zbiór dobrych źródeł do nauki programowania oraz podstawowe informacje zanim zaczniesz.
+keywords: faq, programowanie, początkujący, jak zacząć, nauka, kurs, poradnik
 baseurl: ""
 url: "https://faq.nastoletni.pl"
 github_username:  nastoletni
