@@ -1,7 +1,7 @@
 ---
 title: Javascript
+date: 2001-01-01
 category: section
-date: '2001-01-01'
 ---
 
 *   [kursjs.pl](http://kursjs.pl/) - polski kurs JavaScript.
