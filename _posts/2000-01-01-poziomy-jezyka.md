@@ -1,7 +1,7 @@
 ---
 title: Poziomy języka
+date: 2000-09-01
 category: section
-date: 2000-01-01
 ---
 
 Zapewne słyszałeś o takim pojęciu jakim jest *poziom języka programowania*, słyszysz "język niskiego poziomu" lub "wysokiego poziomu", ewentualnie angielski ekwiwalent "low" czy "high level". Nie, nie chodzi tu o poziom trudności czy skomplikowania języka.
