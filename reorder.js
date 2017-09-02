@@ -21,6 +21,7 @@ async function readAndParseFile(path) {
     let data = await readFileAsync(path, "utf8")
     return matter(data);
 }
+
 /**
  * Writes modified files back to disk;
  * @param {Object} parsedFile 
@@ -57,8 +58,9 @@ async function reorderFiles() {
         nextDate.setMonth(nextDate.getMonth() + DATE_MONTHS_INTERVAL);
     });
 
-
     parsedFiles.forEach(writeFile);
+
+    console.log("Reordered", parsedFiles.length, "files.")
 }
 
 reorderFiles().catch(console.error);
