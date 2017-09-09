@@ -1,6 +1,6 @@
 ---
 title: Poziomy języka
-date: 2000-09-01
+date: 2000-01-01
 category: section
 ---
 
