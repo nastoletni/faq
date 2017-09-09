@@ -1,7 +1,7 @@
 ---
 title: Javascript
+date: 2000-05-01
 category: section
-date: 2000-01-04
 ---
 
 - [You Don't Know JS]

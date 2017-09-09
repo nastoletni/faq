@@ -1,7 +1,7 @@
 ---
 title: Edytory i <abbr title="Integrated Development Environment">IDE</abbr>
+date: 2000-02-01
 category: section
-date: 2000-01-02
 ---
 
 Poniżej przedstawione zostały edytory, które są obecnie najpopularniejsze, mają dużą bazę pluginów i themów oraz są polecane. Są one open source lub zamkniętoźródłowe i darmowe w pełni lub darmowe do użytku niekomercyjnego.

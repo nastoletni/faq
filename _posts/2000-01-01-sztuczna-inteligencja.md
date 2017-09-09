@@ -1,7 +1,7 @@
 ---
 title: Sztuczna inteligencja
+date: 2001-06-01
 link: ai
-date: 2000-01-12 12:00:00
 category: section
 ---
 
