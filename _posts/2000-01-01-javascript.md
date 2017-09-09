@@ -1,14 +1,18 @@
 ---
 title: Javascript
-date: 2001-01-01
 category: section
+date: 2000-01-04
 ---
 
-### Literatura
+- [You Don't Know JS]
+- [Exploring JS]
+- [The Coding Train] - kanał na YouTube na którym prowadzący na oczach widza wykonuje różne rzeczy, przy użyciu [p5.js].
+- [Samuraj Programowania] - polski wideokurs do JavaScript.
+- [Kurs JavaScript] - kolejny polski kurs, tym razem tekstowy.
+- [Mozilla Developer Network] - świetna dokumentacja.
+- [Fun Fun Function]
+- [Beau teaches JavaScript] - kolejny, tym razem **bardzo dobry** wideokurs.
 
-*   [Zbiór znakomitych książek traktujących o JavaScript. Wersja online za darmo.](http://exploringjs.com/)
-*   [JavaScript. Programowanie zaawansowane. Tomasz "Comandeer" Jakut](http://helion.pl/ksiazki/javascript-programowanie-zaawansowane-tomasz-comandeer-jakut,jascpz.htm)
-=======
 [You Don't Know JS]: https://github.com/getify/You-Dont-Know-JS
 [Exploring JS]: http://exploringjs.com/
 [The Coding Train]: https://www.youtube.com/user/shiffman/playlists?view=50&shelf_id=14&sort=dd
