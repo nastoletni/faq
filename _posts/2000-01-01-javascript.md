@@ -22,3 +22,8 @@ category: section
 [Mozilla Developer Network]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
 [Fun Fun Function]: https://www.youtube.com/channel/UCO1cgjhGzsSYb1rsB4bFe4Q/videos
 [Beau teaches JavaScript]: https://www.youtube.com/playlist?list=PLWKjhJtqVAbmoiNlqLJg1gxEjEuKHHcn_
+
+### Literatura
+
+* <cite>JavaScript. Programowanie zaawansowane.</cite> Tomasz "Comandeer" Jakut - Pozycja dla osób znających podstawy JavaScriptu. Opisuje bardzo wiele narzędzi i technik pracy, takich jak pomocne biblioteki, praca z systemem kontroli wersji GIT, 
+metodyka TDD, a zarazem przedstawia dużą ilość praktycznych przykładów.
