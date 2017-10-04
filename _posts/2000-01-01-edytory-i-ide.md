@@ -1,6 +1,6 @@
 ---
 title: Edytory i <abbr title="Integrated Development Environment">IDE</abbr>
-date: 2000-02-01
+date: 2000-03-01
 category: section
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Javascript
-date: 2000-05-01
+date: 2000-06-01
 category: section
 ---
 
