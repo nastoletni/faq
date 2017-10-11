@@ -4,7 +4,7 @@ date: 2000-05-01
 link: web
 category: section
 ---
-
+*   [FreeCodeCamp](http://freecodecamp.org) - podstawy HTML/CSS/JS na przykładach w formie wyzwań z trudnością zmieniającą się wraz z liczbom ukończonych wyzwań. Po angielsku.
 *   [kurshtml.edu.pl](http://www.kurshtml.edu.pl/) - bardzo dobry kurs HTML i CSS.
 *   [webkod.pl](http://webkod.pl/) - kolejny kurs HTML i CSS.
 *   [forumweb.pl](http://www.forumweb.pl/) - bardzo dobre forum pokrywające tematykę webdevelopmentu.
