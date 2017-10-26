@@ -1,5 +1,5 @@
 ---
-title: Matematyka w programowaniu 
+title: Matematyka w programowaniu
 date: 2000-02-01
 link: matematyka
 category: section
@@ -29,7 +29,7 @@ Zawsze znajdą się wyjątki; to tylko zarys ogólny. Na wszelki wypadek lepiej 
 O dwie ostatnie pozycje ciężko w internetowych księgarniach, warto rozglądać się na portalach z książkami używanymi oraz w bibliotekach (zwłaszcza uczelni technicznych).
 
 [Wprowadzenie do algorytmów]: https://helion.pl/ksiazki/wprowadzenie-do-algorytmow-cormen-thomas-h-leiserson-charles-e-rivest-rol,a_006d.htm
-[Algorytmy + struktury danych = programy] : http://www.empik.com/algorytmy-struktury-danych-programy-wirth-niklaus,307409,ksiazka-p
+[Algorytmy + struktury danych = programy]: http://www.empik.com/algorytmy-struktury-danych-programy-wirth-niklaus,307409,ksiazka-p
 [Algorytmika praktyczna. Nie tylko dla mistrzów]: https://helion.pl/ksiazki/algorytmika-praktyczna-nie-tylko-dla-mistrzow-stanczyk-piotr,a_0056.htm
 [Algorytmika praktyczna w konkursach informatycznych]: http://www-users.mat.umk.pl/~stencel/acm/algorytmika_praktyczna.pdf
 [Rachunek rózniczkowy i całkowy]: https://ksiegarnia.pwn.pl/Rachunek-rozniczkowy-i-calkowy-Tom-1,68704455,p.html
