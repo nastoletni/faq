@@ -26,6 +26,7 @@ Zawsze znajdą się wyjątki; to tylko zarys ogólny. Na wszelki wypadek lepiej 
 *   <cite>[Rachunek rózniczkowy i całkowy]</cite> Grigorij Fichtenholz - podstawowa pozycja aspirującego matematyka, ambitna lektura obejmująca to, co potrzebne jest przy tworzeniu gier czy pracy nad sztuczną inteligencją.
 *   <cite>Analiza matematyczna 1: definicje, twierdzenia, wzory</cite> Marian Gewert, Zbigniew Skoczylas - podręcznik matematyczny, zwięzły wykład rachunku różniczkowego i całkowego. Niezbędne minimum w bardziej wymagających gałęziach informatyki.
 *   <cite>Algebra liniowa 1: definicje, twierdzenia, wzory</cite> Teresa Jurlewicz, Zbigniew Skoczylas - kolejna pozycja, w której omówione są podstawy matematyki wyższej niezbędne do tworzenia gier czy inteligentnych programów. Rachunek wektorowy i macierzowy, geometria analityczna - absolutne minimum.
+
 O dwie ostatnie pozycje ciężko w internetowych księgarniach, warto rozglądać się na portalach z książkami używanymi oraz w bibliotekach (zwłaszcza uczelni technicznych).
 
 [Wprowadzenie do algorytmów]: https://helion.pl/ksiazki/wprowadzenie-do-algorytmow-cormen-thomas-h-leiserson-charles-e-rivest-rol,a_006d.htm
