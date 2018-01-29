@@ -1,6 +1,6 @@
 ---
 title: Darmowe dobro
-date: 2001-08-01
+date: 2001-09-01
 category: section
 ---
 
