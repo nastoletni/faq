@@ -3,7 +3,7 @@
     "glob": "^7.1.2",
     "gray-matter": "^3.0.3",
     "js-yaml": "^3.9.1",
-    "nastoletni-sass": "^1.0.10"
+    "nastoletni-sass": "^1.2.4"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
